@@ -34,6 +34,8 @@ public class ContaTerminal {
 
         /*
          * Mantém o loop enquanto a operação for inválida.
+         * Se o usuário digitar 1, ele realiza um depósito.
+         * Se o usuário digitar 2, ele realiza um saque.
          */
         while (true) {
             System.out.println("Digite qual operação deseja realizar (1 para Depósito ou 2 para Saque): ");
